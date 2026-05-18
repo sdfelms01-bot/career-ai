@@ -69,11 +69,6 @@ Dashboard: Skill DNA + CV + İş Eşleşmeleri
 
 ---
 
-## 📸 Ekran Görüntüleri
-
-
-
-
 ## 📄 Lisans
 
 MIT © 2025 — [Sedef Elmas](https://github.com/sdfelms01-bot)
