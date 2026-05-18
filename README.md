@@ -1,16 +1,87 @@
-# React + Vite
+<div align="center">
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# ⬡ CareerAI
 
-Currently, two official plugins are available:
+### GitHub profilini kariyere dönüştüren AI destekli kariyer asistanı
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+[![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-CareerAI-00f5a0?style=for-the-badge)](https://your-demo-link.com)
+[![React](https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react)](https://react.dev)
+[![Claude AI](https://img.shields.io/badge/Claude-Sonnet_4-FF6B35?style=for-the-badge)](https://anthropic.com)
+[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
 
-## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+</div>
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Özellikler
+
+- **🔬 GitHub Analizi** — Repolarını tarayarak programlama dillerini, proje kalitesini ve yetenek profilini çıkarır
+- **🧬 Skill DNA** — Radar grafiğiyle temiz kod, algoritma, DevOps ve takım çalışması puanlarını görselleştirir
+- **📄 Dijital CV** — GitHub verilerinden otomatik CV oluşturur, PDF olarak indirilebilir
+- **💼 AI İş Eşleşmesi** — Claude AI + web search ile kariyer.net, LinkedIn ve Indeed'den gerçek ilanlar getirir
+- **🤖 AI Mentor** — Profiline özel gelişim tavsiyeleri sunar
+
+---
+
+## 🛠 Teknoloji Stack
+
+| Katman | Teknoloji |
+|--------|-----------|
+| Frontend | React 18, Recharts |
+| AI | Anthropic Claude Sonnet 4 (Messages API) |
+| Web Search | Claude web_search tool |
+| Veri Kaynağı | GitHub REST API (public) |
+| Stil | Custom CSS (CSS Variables) |
+| Build | Vite / Claude.ai Artifacts |
+
+---
+
+
+## 📁 Proje Yapısı
+
+```
+career-ai/
+├── src/
+│   ├── App.jsx          # Ana uygulama bileşeni
+│   ├── analyze.js       # GitHub veri analiz motoru
+│   └── styles/
+│       └── global.css
+├── public/
+└── README.md
+```
+
+---
+
+## 🎯 Nasıl Çalışır?
+
+```
+GitHub Kullanıcı Adı
+       ↓
+GitHub REST API → Repolar + Profil
+       ↓
+Analiz Motoru → Skill Skoru, Diller, Projeler
+       ↓
+Claude AI (web_search) → Gerçek İş İlanları
+       ↓
+Dashboard: Skill DNA + CV + İş Eşleşmeleri
+```
+
+---
+
+## 📸 Ekran Görüntüleri
+
+
+
+
+## 📄 Lisans
+
+MIT © 2025 — [Sedef Elmas](https://github.com/sdfelms01-bot)
+
+---
+
+<div align="center">
+
+Claude AI ile güçlendirildi • GitHub API ile beslenir
+
+</div>
